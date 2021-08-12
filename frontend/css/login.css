@@ -1,0 +1,140 @@
+.page {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-display: swap;
+}
+.page__frame {
+    margin: 50px 0;
+    border-radius: 8px;
+    border: solid 1px #dbdbdb;
+    background: #fff;
+    padding: 25px;
+}
+.page__logo {
+    text-align: left;
+    margin-bottom: 14px;
+}
+.logo {
+    height: 30%;
+    width: 30%;
+}
+.name_logo {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffae00;
+}
+.page_content {
+    display: block;
+}
+.login_signup_form {
+    box-sizing: border-box;
+    max-width: 300px;
+    font-size: 13px;
+    color: #000;
+    margin: auto;
+    width: 300px;
+}
+@media only screen and (min-width: 700px) {
+    .login_signup_form {
+        box-sizing: border-box;
+        max-width: 600px;
+        font-size: 13px;
+        color: #000;
+        margin: auto;
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .login_signup_form {
+        box-sizing: border-box;
+        max-width: 275px;
+        font-size: 13px;
+        color: #000;
+        margin: auto;
+        width: 275px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .login_signup_form {
+        box-sizing: border-box;
+        max-width: 250px;
+        font-size: 13px;
+        color: #000;
+        margin: auto;
+        width: 250px;
+    }
+}
+.field {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.input {
+    box-sizing: border-box;
+    font-weight: 400;
+    width: 100%;
+    padding: .75em 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.submit {
+    line-height: 17px;
+    position: relative;
+    white-space: nowrap;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+    background: 0;
+    background-color: #db4c3f;
+    color: #fff !important;
+    text-shadow: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    height: auto;
+    width: 100%;
+    font-size: 13px !important;
+    font-weight: 700;
+    padding: 9px 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.submit:hover {
+    background-color: rgb(150, 3, 3);
+}
+.forgot_pw {
+    text-decoration-line: none;
+    line-height: 1em;
+    color: #666;
+}
+.forgot_pw:hover {
+    text-decoration-line: underline;
+}
+#hr1 {
+    margin-top: 30px;
+}
+.middle {
+    text-align: center;
+    margin-top: 20px;
+}
+.link_signup {
+    color: #ffa600;
+    text-decoration: none;
+}
+.link_signup:hover {
+    text-decoration-line: underline;
+}
+#notification {
+    color: red;
+}

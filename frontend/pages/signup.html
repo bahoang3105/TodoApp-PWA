@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../img/ico.png" type="image/gif">
+    <script src='../js/check_Login_Signup.js'></script>
+    <script src='../js/blockAccess.js'></script>
+</head>
+
+<script>blockAccess1()</script>
+
+<body>
+    <main role="main" class="page">
+        <div class="page__frame">
+            <div class="page__logo">
+                <a href="/" aria-label="Todoist Homepage"><img src="../img/logo.png" alt="Logo" class="logo"></a>
+            </div>
+            <div class="page_content">
+                <div class="login_signup_form">
+                    <h1>Sign up</h1>
+                    <form method="post" id="login_form" onsubmit="check(event, 0)">
+                        <div class="field">
+                            <label class="label" for="username">Username</label>
+                            <input type="text" name="username" id="username" class="input" required>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="password">Password</label>
+                            <input type="password" name="password" id="password" class="input" required>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="confirm_pw">Confirm Password</label>
+                            <input type="password" name="confirm_pw" id="confirm_pw" class="input" required>
+                        </div>
+                        <div id="notification"></div>
+                        <button type="submit" class="submit" name="submit" id="submit">Sign up</button>
+                    </form>
+                </div>
+            </div>
+            <hr id="hr1">
+            <div class="middle">Already signed up? <a href="login.html" class="link_signup">log in</a></div>
+            <div class="middle"><a href="/">To do App Support</a></div>
+        </div>
+    </main>
+</body>
+</html>

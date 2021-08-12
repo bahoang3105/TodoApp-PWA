@@ -1,0 +1,32 @@
+{
+  "name": "Todo App",
+  "short_name": "Todo", 
+  "start_url": "/todo/frontend/index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/todo/frontend/img/todo-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/todo/frontend/img/todo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/todo/frontend/img/todo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/todo/frontend/img/maskable_icon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable" 
+    }
+  ]
+}

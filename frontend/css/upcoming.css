@@ -1,0 +1,43 @@
+.view_header.has_children .tooltip-chose-date input[type="date"]{
+  border: none;
+  outline: none;
+  background-color: white;
+  font-weight: 520;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.view_header.has_children .tooltip-chose-date input[type="date"] :hover{
+  border: none;
+  background-color: white;
+}
+
+.tooltip-chose-date {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-chose-date .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.tooltip-chose-date :hover .tooltiptext {
+  visibility: visible;
+}
+
+body {
+  font-display: swap;
+}

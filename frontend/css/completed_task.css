@@ -1,0 +1,43 @@
+.view_header .view_header__actions {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	color: #333
+}
+
+.view_header .view_header__actions a,
+.view_header .view_header__actions button {
+    border: none;
+	display: flex;
+	align-items: center;
+	margin-left: 16px;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 5px;
+    cursor: pointer;
+}
+
+.view_header .view_header__actions a:hover,
+.view_header .view_header__actions button:hover {
+	background-color: #eee;
+	color: #202020
+}
+
+.view_header .view_header__actions a .action_label,
+.view_header .view_header__actions button .action_label {
+	font-size: 12px;
+	margin-left: 3px;
+	margin-right: 6px;
+	word-break: normal;
+	font-display: swap;
+}
+
+.checked_icon {
+	display: flex;
+  	flex-shrink: 0;
+  	align-items: center;
+  	justify-content: center;
+	height: 16px;
+  	width: 16px;
+  	color: gray;
+}

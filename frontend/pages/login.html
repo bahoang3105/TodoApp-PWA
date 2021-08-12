@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../img/ico.png" type="image/gif">
+    <script src='../js/check_Login_Signup.js'></script>
+    <script src='../js/blockAccess.js'></script>
+</head>
+
+<script>blockAccess1()</script>
+
+<body>
+    <main role="main" class="page">
+        <div class="page__frame">
+            <div class="page__logo">
+                <a href="/" aria-label="Todoist Homepage"><img src="../img/logo.png" alt="Logo" class="logo"></a>
+            </div>
+            <div class="page_content">
+                <div class="login_signup_form">
+                    <h1>Log in</h1>
+                    <form method="post" id="login_form" onsubmit="check(event, 1)">
+                        <div class="field">
+                            <label class="label" for="username">Username</label>
+                            <input type="text" name="username" id="username" class="input" required>
+                        </div>
+                        <div class="field">
+                            <label class="label" for="password">Password</label>
+                            <input type="password" name="password" id="password" class="input" required>
+                        </div>
+                        <p id="notification"></p>
+                        <button type="submit" class="submit" name="submit" id="submit">Log in</button>
+                    </form>
+                    <div class="field">
+                        <a href="" class="forgot_pw">Forgot your password?</a>
+                    </div>
+                </div>
+            </div>
+            <hr id="hr1">
+            <div class="middle">Don't have an account? <a href="signup.html" class="link_signup">Sign up</a></div>
+            <div class="middle"><a href="/">To do App Support</a></div>
+        </div>
+    </main>
+    <script>
+        window.API_URL = 'http://localhost/todo/backend/api';
+    </script>
+</body>
+
+</html>
